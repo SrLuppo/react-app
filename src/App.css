@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+p {
+    text-align: justify;
+    text-indent: 1.25cm;
+    margin: 1cm;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +42,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
